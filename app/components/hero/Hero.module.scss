@@ -1,0 +1,11 @@
+.hero {
+  background: linear-gradient(to right, #fbed96, #abecd6);
+
+  @apply w-full rounded-3xl flex flex-col gap-4 justify-center items-center text-center py-[38px];
+  & > h2 {
+    @apply font-semibold text-gray-900 text-4xl;
+  }
+  & > h1 {
+    @apply font-medium text-3xl w-4/5;
+  }
+}
