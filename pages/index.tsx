@@ -1,4 +1,6 @@
+import Header from "@/app/components/header/Header";
 import Hero from "@/app/components/hero/Hero";
+
 import Head from "next/head";
 
 export default function Home() {
@@ -11,7 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`max-xl:w-full max-[376px]:px-6 w-[1280px] px-[90px]`}>
-        <Hero />
+        <div className="flex flex-col gap-[40px] py-[40px]">
+          <Header />
+          <Hero />
+        </div>
       </main>
     </>
   );

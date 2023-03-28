@@ -3,10 +3,9 @@
   @apply text-[20px] text-gray-900 leading-[30px];
 
   &::before {
-    @apply bg-gray-900;
+    @apply bg-gray-900 rounded-full delay-75;
     content: "";
     transition: all ease 0.2s;
-    transition-delay: 100;
     position: absolute;
     bottom: 0;
     left: 0;
