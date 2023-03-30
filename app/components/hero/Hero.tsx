@@ -40,7 +40,11 @@ const Hero: FC = () => {
           </ModalContent>
         </Modal>
         <Button>
-          <a href="/cv/CV Junior front-end — Dmytro Musiichenko.pdf" download>
+          <a
+            href="/cv/CV Junior front-end — Dmytro Musiichenko.pdf"
+            download
+            className="max-md:text-sm"
+          >
             Download CV
           </a>
         </Button>

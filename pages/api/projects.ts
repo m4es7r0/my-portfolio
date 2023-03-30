@@ -97,6 +97,10 @@ export default function handler(
             name: "Redux",
             color: "black",
           },
+          {
+            name: "CSS",
+            color: "light-blue",
+          },
         ],
       },
     ],

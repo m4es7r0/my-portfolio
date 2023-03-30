@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { FC, PropsWithChildren } from "react";
 
 import style from "./Button.module.scss";
@@ -17,7 +18,7 @@ export const FilButton: FC<
   PropsWithChildren<React.ComponentPropsWithRef<"button">>
 > = (props) => {
   return (
-    <button className={`${style.fillButton} ${props.className}`} {...props}>
+    <button className={`${style.fillButton}`} {...props}>
       {props.children}
     </button>
   );

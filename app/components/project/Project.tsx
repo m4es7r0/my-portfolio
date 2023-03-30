@@ -21,7 +21,7 @@ const Project: FC<{ data: Project }> = ({ data }) => {
       </h3>
       <div className="flex gap-[10px] overflow-x-auto">
         {data.stack.map((skill) => (
-          <SkillBadge data={skill} />
+          <SkillBadge data={skill} key={skill.name} />
         ))}
       </div>
       <div className="flex justify-center items-center text-white px-4 text-3xl font-medium   min-h-[270px] bg-gray-900 rounded-3xl">

@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`max-xl:w-full max-[376px]:px-6 w-[1280px] px-[90px] bg-[#fbfefd]`}
+        className={`max-xl:w-full max-[376px]:px-6 max-lg:px-8 w-[1280px] px-[90px] bg-[#fbfefd]`}
       >
         <div className="flex flex-col gap-[80px] py-[40px]">
           <section className="flex flex-col gap-10">

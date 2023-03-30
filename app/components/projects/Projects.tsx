@@ -16,7 +16,7 @@ const Projects: FC = () => {
       <h2>Last Projects</h2>
       <div>
         {data?.data.map((project) => (
-          <Project data={project} />
+          <Project data={project} key={project.name} />
         ))}
       </div>
     </section>
