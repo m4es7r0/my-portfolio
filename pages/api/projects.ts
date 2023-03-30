@@ -9,7 +9,7 @@ export interface Project {
   name: string;
   image?: string;
   git: string;
-  deploy: string;
+  deploy?: string;
   stack: StackOfProject[];
 }
 
@@ -26,9 +26,32 @@ export default function handler(
     data: [
       {
         name: "E-commerce",
-        image: "/",
-        git: "...",
-        deploy: "...",
+        git: "https://github.com/m4es7r0/coffee-e-commerce",
+        stack: [
+          {
+            name: "Next",
+            color: "rose",
+          },
+          {
+            name: "Redux",
+            color: "black",
+          },
+          {
+            name: "TS",
+            color: "light-blue",
+          },
+          {
+            name: "Chakra UI",
+            color: "emerald",
+          },
+        ],
+      },
+      {
+        name: "Tiny Blog",
+        image: "/projects/blog.png",
+        git: "https://github.com/m4es7r0/full-stack-react-experss-blog",
+        deploy:
+          "https://full-stack-react-experss-blog-git-front-end-m4es7r0.vercel.app/",
         stack: [
           {
             name: "React",
@@ -43,66 +66,36 @@ export default function handler(
             color: "black",
           },
           {
-            name: "JS",
+            name: "Node JS",
             color: "yellow",
           },
           {
-            name: "HTML",
+            name: "Material UI",
+            color: "emerald",
+          },
+          {
+            name: "Sass",
             color: "rose",
           },
         ],
       },
       {
-        name: "E-commerce",
-        git: "...",
-        deploy: "...",
+        name: "Marvel information Resource",
+        image: "/projects/marvel.png",
+        git: "https://github.com/m4es7r0/marvel-react",
+        deploy: "https://marvel-react-sigma.vercel.app/",
         stack: [
           {
             name: "React",
             color: "light-blue",
           },
           {
-            name: "Rest API",
-            color: "emerald",
+            name: "Remote API",
+            color: "rose",
           },
           {
             name: "Redux",
             color: "black",
-          },
-          {
-            name: "JS",
-            color: "yellow",
-          },
-          {
-            name: "HTML",
-            color: "rose",
-          },
-        ],
-      },
-      {
-        name: "E-commerce",
-        git: "...",
-        deploy: "...",
-        stack: [
-          {
-            name: "React",
-            color: "light-blue",
-          },
-          {
-            name: "Rest API",
-            color: "emerald",
-          },
-          {
-            name: "Redux",
-            color: "black",
-          },
-          {
-            name: "JS",
-            color: "yellow",
-          },
-          {
-            name: "HTML",
-            color: "rose",
           },
         ],
       },

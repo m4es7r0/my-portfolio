@@ -1,3 +1,7 @@
 .project {
-  @apply flex flex-col gap-5 min-w-0 max-w-[353px];
+  @apply flex flex-col gap-5 mt-8 min-w-0 w-[353px] max-w-[353px];
+
+  & > div img {
+    @apply h-[200px] object-cover rounded-xl;
+  }
 }
