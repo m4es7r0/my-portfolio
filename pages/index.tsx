@@ -1,5 +1,6 @@
 import Header from "@/app/components/header/Header";
 import Hero from "@/app/components/hero/Hero";
+import Projects from "@/app/components/projects/Projects";
 
 import Head from "next/head";
 
@@ -12,10 +13,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`max-xl:w-full max-[376px]:px-6 w-[1280px] px-[90px]`}>
-        <div className="flex flex-col gap-[40px] py-[40px]">
-          <Header />
-          <Hero />
+      <main
+        className={`max-xl:w-full max-[376px]:px-6 w-[1280px] px-[90px] bg-[#fbfefd]`}
+      >
+        <div className="flex flex-col gap-[80px] py-[40px]">
+          <section className="flex flex-col gap-10">
+            <Header />
+            <Hero />
+          </section>
+          <Projects />
         </div>
       </main>
     </>

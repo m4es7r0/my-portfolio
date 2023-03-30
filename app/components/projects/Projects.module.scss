@@ -1,0 +1,9 @@
+.projects {
+  & > h2 {
+    @apply font-medium text-7xl mb-[60px];
+  }
+
+  & > div {
+    @apply flex flex-wrap justify-center items-center gap-5;
+  }
+}

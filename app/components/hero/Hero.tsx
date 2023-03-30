@@ -33,9 +33,9 @@ const Hero: FC = () => {
             <Image
               src={"/telegram-contact.jpeg"}
               alt="telegram: @DmytroMusiichenko"
-              width={215}
-              height={215}
-              className="rounded-3xl self-center"
+              width={1000}
+              height={1000}
+              className="rounded-3xl self-center w-auto h-auto"
             />
           </ModalContent>
         </Modal>
