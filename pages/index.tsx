@@ -18,9 +18,11 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="blob:https://vercel.com/aeeac1f6-fd2c-45b3-824e-8caf5d6812ec"
+          content="https://i.postimg.cc/639bhTJt/Untitled.png"
         />
-        <meta property="og:image:type" content="blob" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="460" />
+        <meta property="og:image:height" content="290" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
