@@ -20,7 +20,7 @@ export default function Home() {
           property="og:image"
           content="blob:https://vercel.com/aeeac1f6-fd2c-45b3-824e-8caf5d6812ec"
         />
-        {/* <meta property="og:image:type" content="blob" /> */}
+        <meta property="og:image:type" content="blob" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
