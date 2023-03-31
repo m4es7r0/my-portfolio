@@ -6,7 +6,7 @@ import style from "./Projects.module.scss";
 const Projects: FC = () => {
   const [data, setData] = useState<null | RootProjects>(null);
   useEffect(() => {
-    fetch("http://localhost:3000/api/projects")
+    fetch("/data/projects.json")
       .then((res) => res.json())
       .then((res) => setData(res));
   }, []);
