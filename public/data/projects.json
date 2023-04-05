@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "Marvel information Resource",
+      "name": "Marvel Resource",
       "image": "/projects/marvel.png",
       "git": "https://github.com/m4es7r0/marvel-react",
       "deploy": "https://marvel-react-sigma.vercel.app/",
