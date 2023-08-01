@@ -19,7 +19,7 @@ const Hero: FC = () => {
       <Image src={"/Memoji-round.svg"} alt="avatar" width={100} height={100} />
       <h2 className="drop-shadow-md">Hello, I'm Dmytro 🤙</h2>
       <h1 className="drop-shadow-sm">
-        I am junior{" "}
+        I am{" "}
         <span className="text-light-blue font-semibold drop-shadow-lg">
           front-end developer
         </span>
@@ -41,7 +41,7 @@ const Hero: FC = () => {
         </Modal>
         <Button>
           <a
-            href="/cv/CV Junior front-end — Dmytro Musiichenko.pdf"
+            href="/cv/CV_front-end__Dmytro Musiichenko.pdf"
             download
             className="max-md:text-sm"
           >
